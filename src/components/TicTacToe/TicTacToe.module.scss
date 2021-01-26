@@ -1,0 +1,17 @@
+.dashboard {
+  display: flex;
+  flex-flow: row;
+
+  .game {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .score {
+    width: 33%;
+    margin: 15% 0 0 1%;
+    display: flex;
+    flex-flow: column;
+  }
+}
